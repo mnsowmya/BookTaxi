@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f5e2d4">
+    
+    <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"  
+                    android:layout_marginTop="12sp"
+                    android:layout_marginBottom="12sp"
+                    android:textSize="25sp"
+                    android:textColor="#4cd661"
+                    android:text="CONFIRM BOOKING" />
+    
+    <ImageButton
+        android:id="@+id/imagebutton1"
+        android:layout_gravity="center"  
+        android:includeFontPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/confirm_03"
+        />
+    
+    <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"   
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center" 
+                    android:layout_marginTop="12sp"
+                    android:layout_marginBottom="12sp"
+                    android:textSize="25sp"
+                    android:textColor="#4cd661"
+                    android:text="CANCEL BOOKING" />
+      <ImageButton
+        android:id="@+id/imagebutton2"
+        android:layout_gravity="center"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cancel_03" 
+        />
+    
+                    <TextView
+                android:id="@+id/textView2"
+                android:includeFontPadding="false"
+                    android:layout_gravity="center" 
+                    android:layout_marginTop="5sp"
+                    android:layout_marginBottom="2sp"
+                android:textSize="25sp"
+                 android:textColor="#4cd661"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+                      
+                    
+                 
+                 
+    
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:src="@drawable/taxi" />
+    
+
+
+    <TableLayout
+        android:id="@+id/tablelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        
+    </TableLayout>
+     
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
