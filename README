@@ -1,10 +1,12 @@
-This is an Anroid app which is standalone.It has the basic functionality i.e a customer can signup and book a driver based his or her location(I have included only two to three sample locations).The location of driver when matches with customer a notification is sent to customer with respective driver details and driver is booked for the corresponding customer.
+BOOK TAXI 
+
+This is an Android app which is standalone. It has the basic functionality i.e a customer can sign up and book a driver based his or her location(I have included only two to three sample locations).The location of driver when matches with customer a notification is sent to customer with respective driver details and driver is booked for the corresponding customer.
 
 Features:
 
 Customer signup 
 Customer login
 Driver signup
-select Location 
+Select Location 
 Booking driver
 Notification on assigning driver
